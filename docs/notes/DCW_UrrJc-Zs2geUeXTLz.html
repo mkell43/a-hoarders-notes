@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
   
-  <title>GitHub Actions Tools - A Hoarders Notes</title>
+  <title>GitHub Pages - A Hoarders Notes</title>
   
 
   <link
@@ -43,22 +43,22 @@
 <meta name="description" content="My digital garden where I hoard all the interesting things I learn about.">
 <meta name="author" content="">
 
-<link rel="canonical" href="https://mkell43.github.io/notes/rYXJnz807MckQc40Daiiu.html">
+<link rel="canonical" href="https://mkell43.github.io/notes/DCW_UrrJc-Zs2geUeXTLz.html">
 
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://mkell43.github.io/notes/rYXJnz807MckQc40Daiiu.html">
+<meta property="og:url" content="https://mkell43.github.io/notes/DCW_UrrJc-Zs2geUeXTLz.html">
 <meta property="og:description" content="My digital garden where I hoard all the interesting things I learn about.">
 <meta property="og:image" content="https://mkell43.github.ioundefined">
 
 <meta name="twitter:card" content="summary">
 
-<meta name="twitter:url" content="https://mkell43.github.io/notes/rYXJnz807MckQc40Daiiu.html">
+<meta name="twitter:url" content="https://mkell43.github.io/notes/DCW_UrrJc-Zs2geUeXTLz.html">
 <meta name="twitter:description" content="My digital garden where I hoard all the interesting things I learn about.">
 <meta name="twitter:image" content="https://mkell43.github.ioundefined">
 
 
-  <meta property="og:title" content="GitHub Actions Tools - A Hoarders Notes" />
-  <meta name="twitter:title" content="GitHub Actions Tools - A Hoarders Notes" />
+  <meta property="og:title" content="GitHub Pages - A Hoarders Notes" />
+  <meta name="twitter:title" content="GitHub Pages - A Hoarders Notes" />
   
 </head>
 
@@ -132,7 +132,7 @@
       
         
           <nav aria-label="Breadcrumb" class="breadcrumb-nav">
-            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://mkell43.github.io/a-hoarders-notes">Introduction</a></li><li class="breadcrumb-nav-list-item"><a href="https://mkell43.github.io/a-hoarders-notes/notes/CL2079hANe3oCLOvnoK7P.html">Toolbox</a></li><li class="breadcrumb-nav-list-item">GitHub Actions Tools</li></ol>
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://mkell43.github.io/a-hoarders-notes">Introduction</a></li><li class="breadcrumb-nav-list-item"><a href="https://mkell43.github.io/a-hoarders-notes/notes/0_SHh7L-672njVmezF8od.html">Collections</a></li><li class="breadcrumb-nav-list-item">GitHub Pages</li></ol>
           </nav>
         
       
@@ -165,10 +165,10 @@
 <div id="main" role="main">
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="GitHub Actions Tools">
+    <meta itemprop="headline" content="GitHub Pages">
     
-    <meta itemprop="datePublished" content="2021-07-12T03:25:49+00:00">
-    <meta itemprop="dateModified" content="2021-07-12T03:25:49+00:00">
+    <meta itemprop="datePublished" content="2021-07-13T04:04:26+00:00">
+    <meta itemprop="dateModified" content="2021-07-13T04:04:26+00:00">
 
     <div class="page__inner-wrap">
 
@@ -178,35 +178,13 @@
 
         
 
-        <h1 id="github-actions-tools"><a aria-hidden="true" class="anchor-heading" href="#github-actions-tools"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>GitHub Actions Tools</h1>
-<h2 id="actions"><a aria-hidden="true" class="anchor-heading" href="#actions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Actions</h2>
-<h2 id="peaceirisactions-gh-pages"><a aria-hidden="true" class="anchor-heading" href="#peaceirisactions-gh-pages"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>peaceiris/actions-gh-pages</h2>
-<p><a href="https://github.com/peaceiris/actions-gh-pages">peaceiris/actions-gh-pages</a></p>
-<blockquote>
-<p>GitHub Actions for GitHub Pages rocket Deploy static files and publish your
-site easily. Static-Site-Generators-friendly.</p>
-</blockquote>
-<h2 id="snippets"><a aria-hidden="true" class="anchor-heading" href="#snippets"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Snippets</h2>
-<h3 id="make-a-commit-if-changes-are-staged"><a aria-hidden="true" class="anchor-heading" href="#make-a-commit-if-changes-are-staged"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Make a Commit if Changes Are Staged</h3>
-<p>During CI if changes are made during the process -- such as when building a
-static site -- the step below will commit them. They can then be pushed back to
-the repo as your own user, but it's easier to use another action like:
-<a href="https://github.com/ad-m/github-push-action">Github Push Action</a>.</p>
-<p><code>git diff-index --quiet HEAD</code> will return <code>0</code> if there aren't any changes
-staged and a <code>1</code> if there are. The <code>||</code> will then trigger the <code>git commit</code>.</p>
-<pre class="language-yaml"><code class="language-yaml">
-<span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Commit files
-  <span class="token key atrule">run</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string">
-    git config --local user.email "action@github.com"
-    git config --local user.name "GitHub Action"
-    git add docs/
-    git diff-index --quiet HEAD \
-      || git commit -m "Build site."</span>
-</code></pre>
+        <h1 id="github-pages"><a aria-hidden="true" class="anchor-heading" href="#github-pages"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>GitHub Pages</h1>
+<p>Notes about or relating to GitHub Pages.</p>
 <hr>
-<h2 id="collections"><a aria-hidden="true" class="anchor-heading" href="#collections"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Collections</h2>
-<p><a href="https://mkell43.github.io/a-hoarders-notes/notes/Y6fg-l4Br11QphPsdWr1X.html">#github-actions</a>
-<a href="https://mkell43.github.io/a-hoarders-notes/notes/DCW_UrrJc-Zs2geUeXTLz.html">#github-pages</a></p><span id="navId" data="rYXJnz807MckQc40Daiiu"></span>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://mkell43.github.io/a-hoarders-notes/notes/rYXJnz807MckQc40Daiiu.html">GitHub Actions Tools</a></li>
+</ul><span id="navId" data="DCW_UrrJc-Zs2geUeXTLz"></span>
 
                 
       </section>
