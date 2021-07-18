@@ -1,3 +1,6 @@
 node_modules
 .dendron.*
 build
+
+# Mega Linter
+report
