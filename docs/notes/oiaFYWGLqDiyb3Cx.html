@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
   
-  <title>This page has not yet sprouted - A Hoarders Notes</title>
+  <title>Artifact Registry - A Hoarders Notes</title>
   
 
   <link
@@ -43,22 +43,22 @@
 <meta name="description" content="My digital garden where I hoard all the interesting things I learn about.">
 <meta name="author" content="">
 
-<link rel="canonical" href="https://mkell43.github.io/notes/403.html">
+<link rel="canonical" href="https://mkell43.github.io/notes/oiaFYWGLqDiyb3Cx.html">
 
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://mkell43.github.io/notes/403.html">
+<meta property="og:url" content="https://mkell43.github.io/notes/oiaFYWGLqDiyb3Cx.html">
 <meta property="og:description" content="My digital garden where I hoard all the interesting things I learn about.">
 <meta property="og:image" content="https://mkell43.github.ioundefined">
 
 <meta name="twitter:card" content="summary">
 
-<meta name="twitter:url" content="https://mkell43.github.io/notes/403.html">
+<meta name="twitter:url" content="https://mkell43.github.io/notes/oiaFYWGLqDiyb3Cx.html">
 <meta name="twitter:description" content="My digital garden where I hoard all the interesting things I learn about.">
 <meta name="twitter:image" content="https://mkell43.github.ioundefined">
 
 
-  <meta property="og:title" content="This page has not yet sprouted - A Hoarders Notes" />
-  <meta name="twitter:title" content="This page has not yet sprouted - A Hoarders Notes" />
+  <meta property="og:title" content="Artifact Registry - A Hoarders Notes" />
+  <meta name="twitter:title" content="Artifact Registry - A Hoarders Notes" />
   
 </head>
 
@@ -131,6 +131,10 @@
     <div id="main-content-wrap" class="main-content-wrap">
       
         
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://mkell43.github.io/a-hoarders-notes">Introduction</a></li><li class="breadcrumb-nav-list-item"><a href="https://mkell43.github.io/a-hoarders-notes/notes/Gj2JPqWkOZFix3gD.html">Cloud Providers</a></li><li class="breadcrumb-nav-list-item"><a href="https://mkell43.github.io/a-hoarders-notes/notes/u6IlPndUcSjYi9Wo.html">GCP</a></li><li class="breadcrumb-nav-list-item">Artifact Registry</li></ol>
+          </nav>
+        
       
       <div id="main-content" class="main-content" role="main">
 
@@ -161,10 +165,10 @@
 <div id="main" role="main">
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="This page has not yet sprouted">
+    <meta itemprop="headline" content="Artifact Registry">
     
-    <meta itemprop="datePublished" content="2021-07-16T22:51:25+00:00">
-    <meta itemprop="dateModified" content="2021-07-16T22:51:25+00:00">
+    <meta itemprop="datePublished" content="2021-07-14T22:34:01+00:00">
+    <meta itemprop="dateModified" content="2021-07-14T22:34:01+00:00">
 
     <div class="page__inner-wrap">
 
@@ -174,9 +178,38 @@
 
         
 
-        <h1 id="this-page-has-not-yet-sprouted"><a aria-hidden="true" class="anchor-heading" href="#this-page-has-not-yet-sprouted"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>This page has not yet sprouted</h1>
-<p><a href="https://dendron.so/">Dendron</a> (the tool used to generate this site) lets authors selective publish content. You will see this page whenever you click on a link to an unpublished page</p>
-<p><img src="/a-hoarders-notes/https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/not-sprouted.png"></p><span id="navId" data="403"></span>
+        <h1 id="artifact-registry"><a aria-hidden="true" class="anchor-heading" href="#artifact-registry"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Artifact Registry</h1>
+<h2 id="usage"><a aria-hidden="true" class="anchor-heading" href="#usage"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Usage</h2>
+<h3 id="general"><a aria-hidden="true" class="anchor-heading" href="#general"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>General</h3>
+<ol>
+<li>Enable Artifact Registry.
+<ul>
+<li><a href="https://cloud.google.com/artifact-registry/docs/enable-service">GCP Artifiact Registry Docs - Enable Artifact Registry</a></li>
+</ul>
+</li>
+<li>Create the repository.
+<ul>
+<li><a href="https://cloud.google.com/artifact-registry/docs/manage-repos">GCP Artifiact Registry Docs - Manage Repositories</a></li>
+<li><a href="https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/artifact_registry_repository">GCP Terraform Provider Docs - Resource: Artifact Registry Repository</a></li>
+</ul>
+</li>
+</ol>
+<h3 id="containers"><a aria-hidden="true" class="anchor-heading" href="#containers"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Containers</h3>
+<ol>
+<li>Configure Docker authentication to the registry.
+<ul>
+<li>Use <code>gcloud</code> helper when possible.
+<ul>
+<li>Example: <code>gcloud auth configure-docker us-west2-docker.pkg.dev</code></li>
+<li><a href="https://cloud.google.com/artifact-registry/docs/docker/authentication#gcloud-helper">GCP Artifact Registry Docs - gcloud helper</a></li>
+</ul>
+</li>
+<li><a href="https://cloud.google.com/artifact-registry/docs/docker/authentication">GCP Artifact Registry Docs - Docker Authentication</a></li>
+</ul>
+</li>
+</ol>
+<h2 id="permissions"><a aria-hidden="true" class="anchor-heading" href="#permissions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Permissions</h2>
+<p><a href="https://cloud.google.com/artifact-registry/docs/access-control">GCP Artifact Registry Docs - Access Control</a></p><span id="navId" data="oiaFYWGLqDiyb3Cx"></span>
 
                 
       </section>

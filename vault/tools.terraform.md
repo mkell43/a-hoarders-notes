@@ -1,7 +1,7 @@
 ---
 id: GlccMfkU4xwQl5I8vPZxK
 title: Terraform Tools
-desc: 'Tools that work with Terraform.'
+desc: Tools that work with Terraform.
 updated: 1626033806842
 created: 1626033801495
 ---
