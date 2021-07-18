@@ -4,8 +4,23 @@
 remote_theme: tomjoht/documentation-theme-jekyll
 title: A Hoarders Notes
 logo: "/assets/images/logo.png"
-exclude: [ "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "*/dendron.template.release.md"
-]
+exclude:
+  [
+    "node_modules/",
+    "*.gemspec",
+    "*.gem",
+    "Gemfile",
+    "Gemfile.lock",
+    "package.json",
+    "package-lock.json",
+    "script/",
+    "LICENSE.txt",
+    "lib/",
+    "bin/",
+    "README.md",
+    "Rakefile",
+    "*/dendron.template.release.md",
+  ]
 footer_content: ""
 url: "https://mkell43.github.io"
 
@@ -24,8 +39,7 @@ author:
   twitter: dendronhq
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "notes" # an empty string here means all files in the project
     values:
       layout: "default"
