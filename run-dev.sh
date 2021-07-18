@@ -3,7 +3,7 @@
 set -euo pipefail
 
 function get_vaults() {
-    jq -r .folders[].path < dendron.code-workspace | paste -s -d ' ' -
+	jq -r .folders[].path <dendron.code-workspace | paste -s -d ' ' -
 }
 
 git pull

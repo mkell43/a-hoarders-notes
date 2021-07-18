@@ -17,7 +17,7 @@ created: 1626060349257
 
 #### Example Use
 
-Likely out of date: <https://github.com/mkell43/a-hoarders-notes/blob/main/.github/workflows/gh-pages.yml> 
+Likely out of date: <https://github.com/mkell43/a-hoarders-notes/blob/main/.github/workflows/gh-pages.yml>
 
 ```yaml
 ---
