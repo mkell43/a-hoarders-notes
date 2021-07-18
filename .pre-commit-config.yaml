@@ -4,4 +4,4 @@ repos:
     rev: v2.17.13
     hooks:
       - id: commitizen
-        stags: [commit-msg]
+        stages: [commit-msg]
