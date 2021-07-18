@@ -46,3 +46,5 @@ This is the waiting area:
   - <https://github.com/FundingCircle/fc4-framework>
 - <https://nvuillam.github.io/mega-linter/> (Linting)
 - <https://rtyley.github.io/bfg-repo-cleaner/> (Git)
+- <https://github.com/mvdan/sh> (CLI / GO / Shell / Linting)
+- <https://www.urbanautomaton.com/blog/2011/07/28/git-grep-and-language-specific-diffs/> (Git)
