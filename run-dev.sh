@@ -7,5 +7,5 @@ function get_vaults() {
 }
 
 git pull
-npm install
+npm install --production=false
 nodemon -e md -w "$(get_vaults)" "$(pwd)"/node_modules/.bin/dendron buildSite --stage dev --serve
