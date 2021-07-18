@@ -28,8 +28,6 @@ Enforce commit conventions.
 
 <http://nvie.com/posts/a-successful-git-branching-model/>
 
-## Hooks
-
 ### Awesome Lists
 
 - [aitemr/awesome-git-hooks](https://github.com/aitemr/awesome-git-hooks)

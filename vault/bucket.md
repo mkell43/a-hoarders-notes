@@ -49,3 +49,4 @@ This is the waiting area:
   - <https://lukemerrett.com/c4-diagrams-as-code-architectural-joy/>
   - <https://github.com/FundingCircle/fc4-framework>
 - <https://nvuillam.github.io/mega-linter/> (Linting)
+- <https://rtyley.github.io/bfg-repo-cleaner/> (Git)
