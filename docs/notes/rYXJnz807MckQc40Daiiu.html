@@ -180,12 +180,63 @@
 
         <h1 id="github-actions-tools"><a aria-hidden="true" class="anchor-heading" href="#github-actions-tools"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>GitHub Actions Tools</h1>
 <h2 id="actions"><a aria-hidden="true" class="anchor-heading" href="#actions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Actions</h2>
-<h2 id="peaceirisactions-gh-pages"><a aria-hidden="true" class="anchor-heading" href="#peaceirisactions-gh-pages"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>peaceiris/actions-gh-pages</h2>
+<h3 id="peaceirisactions-gh-pages"><a aria-hidden="true" class="anchor-heading" href="#peaceirisactions-gh-pages"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>peaceiris/actions-gh-pages</h3>
 <p><a href="https://github.com/peaceiris/actions-gh-pages">peaceiris/actions-gh-pages</a></p>
 <blockquote>
 <p>GitHub Actions for GitHub Pages rocket Deploy static files and publish your
 site easily. Static-Site-Generators-friendly.</p>
 </blockquote>
+<h4 id="example-use"><a aria-hidden="true" class="anchor-heading" href="#example-use"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example Use</h4>
+<p>Likely out of date: <a href="https://github.com/mkell43/a-hoarders-notes/blob/main/.github/workflows/gh-pages.yml">https://github.com/mkell43/a-hoarders-notes/blob/main/.github/workflows/gh-pages.yml</a> </p>
+<pre class="language-yaml"><code class="language-yaml"><span class="token punctuation">---</span>
+<span class="token key atrule">name</span><span class="token punctuation">:</span> Github Pages
+
+<span class="token key atrule">on</span><span class="token punctuation">:</span>
+  <span class="token key atrule">workflow_dispatch</span><span class="token punctuation">:</span>
+  <span class="token key atrule">push</span><span class="token punctuation">:</span>
+    <span class="token key atrule">branches</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> main
+
+<span class="token key atrule">jobs</span><span class="token punctuation">:</span>
+  <span class="token key atrule">build-deploy</span><span class="token punctuation">:</span>
+    <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest
+    <span class="token key atrule">steps</span><span class="token punctuation">:</span>
+
+      <span class="token comment"># For explanation as to why we use `persist-credentials` &#x26; `fetch-depth` see:</span>
+      <span class="token comment">#   https://github.com/ad-m/github-push-action#example-workflow-file</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@v2
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">persist-credentials</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+          <span class="token key atrule">fetch-depth</span><span class="token punctuation">:</span> <span class="token number">0</span>
+
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Setup node
+        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/setup<span class="token punctuation">-</span>node@v2
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">node-version</span><span class="token punctuation">:</span> <span class="token number">14</span>
+          <span class="token key atrule">cache</span><span class="token punctuation">:</span> npm
+
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Install packages
+        <span class="token key atrule">run</span><span class="token punctuation">:</span> npm install
+
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Build site w/ dendron
+        <span class="token key atrule">run</span><span class="token punctuation">:</span> npx dendron buildSiteV2 <span class="token punctuation">-</span><span class="token punctuation">-</span>stage prod
+
+      <span class="token comment"># `git diff-index --quiet HEAD` will return an exit code of 1 if there are</span>
+      <span class="token comment">#   changes staged. If there are changes, it commits them back to the repo.</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Commit files
+        <span class="token key atrule">run</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string">
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/
+          git diff-index --quiet HEAD \
+            || git commit -m "Build site."</span>
+
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Push changes
+        <span class="token key atrule">uses</span><span class="token punctuation">:</span> ad<span class="token punctuation">-</span>m/github<span class="token punctuation">-</span>push<span class="token punctuation">-</span>action@master
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">github_token</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.GITHUB_TOKEN <span class="token punctuation">}</span><span class="token punctuation">}</span>
+          <span class="token key atrule">branch</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> github.ref <span class="token punctuation">}</span><span class="token punctuation">}</span>
+</code></pre>
 <h2 id="snippets"><a aria-hidden="true" class="anchor-heading" href="#snippets"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Snippets</h2>
 <h3 id="make-a-commit-if-changes-are-staged"><a aria-hidden="true" class="anchor-heading" href="#make-a-commit-if-changes-are-staged"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Make a Commit if Changes Are Staged</h3>
 <p>During CI if changes are made during the process -- such as when building a
