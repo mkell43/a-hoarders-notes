@@ -8,11 +8,9 @@ created: 1626129278492
 
 This is the waiting area:
 
-- <https://facelessuser.github.io/pymdown-extensions/> (Python)
+- <https://facelessuser.github.io/pymdown-extensions/> (Python / Markdown)
 - <https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins> (MkDocs)
 - <https://marktext.app/> (Markdown Editor)
-- <https://typora.io/> (Markdown Editor)
-- <https://theme.typora.io/> (Markdown Editor - Themes)
 - <https://github.com/writewithocto/octo> (Markdown Editor)
 - <https://devspace.sh/> (K8s)
 - <https://github.com/npryce/adr-tools> (ADRs)
@@ -50,3 +48,4 @@ This is the waiting area:
   - <https://www.youtube.com/watch?v=x2-rSnhpw0g>
   - <https://lukemerrett.com/c4-diagrams-as-code-architectural-joy/>
   - <https://github.com/FundingCircle/fc4-framework>
+- <https://nvuillam.github.io/mega-linter/> (Linting)
