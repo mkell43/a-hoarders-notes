@@ -49,3 +49,4 @@ This is the waiting area:
 - <https://github.com/mvdan/sh> (CLI / GO / Shell / Linting)
 - <https://www.urbanautomaton.com/blog/2011/07/28/git-grep-and-language-specific-diffs/> (Git)
 - <https://github.com/ngryman/cz-emoji> (Git / Commitizen)
+- <https://www.cybertec-postgresql.com/en/postgresql-useful-new-data-types/> (Postgres / Data Types)
