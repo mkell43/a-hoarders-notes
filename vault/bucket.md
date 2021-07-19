@@ -59,3 +59,8 @@ This is the waiting area:
 - <https://www.weewx.com/> | <https://weather.smitty.app/> ( Personal Weather Station Dashboard )
 - <https://github.com/p403n1x87/austin/> | <https://marketplace.visualstudio.com/items?itemName=p403n1x87.austin-vscode> (Python / Performance Profiling )
 - <https://github.com/rcoh/angle-grinder> ( CLI / Log Parsing )
+- <https://gorse.io/#> ( Recommendation Engine )
+- <https://github.com/actionml/harness> ( ML )
+- <https://skulpt.org/> ( Python )
+- <https://anvil.works/> ( Python )
+- <https://github.com/tmuxinator/tmuxinator> ( Tmux )
