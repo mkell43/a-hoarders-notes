@@ -50,3 +50,7 @@ This is the waiting area:
 - <https://www.urbanautomaton.com/blog/2011/07/28/git-grep-and-language-specific-diffs/> (Git)
 - <https://github.com/ngryman/cz-emoji> (Git / Commitizen)
 - <https://www.cybertec-postgresql.com/en/postgresql-useful-new-data-types/> (Postgres / Data Types)
+- <https://github.com/dimitri/pgloader> (Postgres)
+- <https://orbitdb.org/> (Databases / P2P)
+- <https://bafybeifdi4ucwr3krv5qum5nsnmfllfqp4kr6jkkxgsgapmngsa4nll3bi.ipfs.dweb.link/> (Crypto / Framework)
+- <https://ipfs-io.ipns.dweb.link/> (IPFS / Crypto)
