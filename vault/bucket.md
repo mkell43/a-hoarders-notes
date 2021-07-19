@@ -54,3 +54,8 @@ This is the waiting area:
 - <https://orbitdb.org/> (Databases / P2P)
 - <https://bafybeifdi4ucwr3krv5qum5nsnmfllfqp4kr6jkkxgsgapmngsa4nll3bi.ipfs.dweb.link/> (Crypto / Framework)
 - <https://ipfs-io.ipns.dweb.link/> (IPFS / Crypto)
+- <https://github.com/ipfs/go-ipfs/blob/release-v0.9.0/docs/experimental-features.md#private-networks> ( IPFS / Crypto / Private Network )
+- <https://www.messynessychic.com/2021/06/10/inside-the-imaginarium-of-a-solarpunk-architect/> ( Art )
+- <https://www.weewx.com/> | <https://weather.smitty.app/> ( Personal Weather Station Dashboard )
+- <https://github.com/p403n1x87/austin/> | <https://marketplace.visualstudio.com/items?itemName=p403n1x87.austin-vscode> (Python / Performance Profiling )
+- <https://github.com/rcoh/angle-grinder> ( CLI / Log Parsing )
