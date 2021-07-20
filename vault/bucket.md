@@ -68,3 +68,4 @@ This is the waiting area:
 - <https://github.com/kurolabs/stegcloak> ( JS / Steganography )
 - <https://github.com/aonemd/jazl>
 - <https://bonkerfield.org/2020/02/reddit-bot-gpt2-bert/> ( Python / Reddit / GPT-2 / ML )
+- <https://pyautogui.readthedocs.io/en/latest/index.html> ( Python / Automation )
