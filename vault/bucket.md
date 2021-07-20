@@ -64,3 +64,7 @@ This is the waiting area:
 - <https://skulpt.org/> ( Python )
 - <https://anvil.works/> ( Python )
 - <https://github.com/tmuxinator/tmuxinator> ( Tmux )
+- <https://github.com/PhantomInsights/comments-generator> ( Python / Reddit / ML )
+- <https://github.com/kurolabs/stegcloak> ( JS / Steganography )
+- <https://github.com/aonemd/jazl>
+- <https://bonkerfield.org/2020/02/reddit-bot-gpt2-bert/> ( Python / Reddit / GPT-2 / ML )
