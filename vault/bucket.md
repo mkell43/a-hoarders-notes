@@ -2,7 +2,7 @@
 id: TEm0MoPsNQIwkROxRbwfj
 title: Bucket
 desc: ''
-updated: 1626129278492
+updated: 1627411764242
 created: 1626129278492
 ---
 
@@ -72,3 +72,31 @@ This is the waiting area:
 - <https://javaknowhow.blogspot.com/2021/06/60-python-interview-questions-answers.html#.YPJimu7zzp4.reddit> ( Python )
 - <https://github.com/GoogleCloudPlatform/berglas> (GCP / Secrets Management )
 - <https://github.com/outsideris/citizen> ( Terraform / Private Registry )
+- <https://medium.com/ingeniouslysimple/testing-database-migrations-5e86d7e47d2a> ( DB / Migrations / CI / Testing)
+- <https://gist.github.com/TrinityCoder/911059c83e5f7a351b785921cf7ecdaa> ( Bash / Snippet )
+- <https://awesome-python.com/> ( Python / Awesome List )
+- <https://github.com/awesome-selfhosted/awesome-selfhosted> ( Selfhosted / Awesome List )
+- <https://www.reddit.com/r/ADHD/comments/ioi1my/i_went_through_700_reddit_comments_and_collected/> ( ADHD / Mental Health / Pro-Tips )
+- <https://github.com/willmcgugan/rich> ( Python / Library )
+- <https://stackoverflow.com/questions/39142778/python-how-to-determine-the-language> ( Python / Language (Human) Determination )
+- <https://requests-cache.readthedocs.io/en/v0.7.2/> | <https://realpython.com/caching-external-api-requests/> ( Python / Libary / HTTP(S) Request Caching)
+- <https://github.com/mercari/tfnotify> ( Terraform  / CI / Notifications )
+- <https://github.com/laurmurclar/datadog-to-terraform> (Terraform / Datadog / Converter)
+- <https://github.com/amperser/proselint> ( Linter / "Prose" )
+- <https://coala.io/#/home?lang=Python> (Linter / Multi-Language)
+- <https://pytest-dependency.readthedocs.io/en/latest/index.html> (Python / Pytest / Plugin)
+- <https://pathvalidate.readthedocs.io/en/latest/index.html> (Python / Library / Path Sanitization & Validation)
+- <https://github.com/bruce-szalwinski/mkdocs-typer> (MkDocs / Typer / Python / Documentation Generator)
+- <https://typer.tiangolo.com/> (Python / Library / CLI )
+- <https://github.com/ArchiveBox/good-karma-kit>
+- <https://awesomeopensource.com/> ( Awesome List )
+- <https://github.com/bitnami/kube-prod-runtime> ( Kubernetes / )
+- <https://github.com/vinta/awesome-python> ( Python / Awesome List )
+- <https://github.com/dahlia/awesome-sqlalchemy> ( Python / SQLAlchemy / Awesome List )
+- <https://github.com/djrobstep/sqlakeyset> (Python / SQLAlchemy / Pagination )
+- <https://github.com/Overv/outrun> (Python / Remote Process Runner !!!!)
+- <https://github.com/un33k/python-slugify> (Python / Library / Slugify)
+- <https://github.com/yurilaaziz/config42> (Python / Library / Config)
+- <https://loguru.readthedocs.io/en/stable/index.html> (Python / Library / Logging)
+- <https://github.com/dimitri/pgloader> (Postgres / Data Migration)
+- <https://github.com/copier-org/copier> (Project Template Generator )

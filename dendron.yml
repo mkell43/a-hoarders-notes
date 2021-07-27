@@ -1,6 +1,7 @@
 version: 1
 vaults:
-  - fsPath: vault
+    -
+        fsPath: vault
 useFMTitle: true
 useNoteTitleForLink: true
 noAutoCreateOnDefinition: true
@@ -9,19 +10,28 @@ noXVaultWikiLink: true
 lookupConfirmVaultOnCreate: false
 autoFoldFrontmatter: true
 journal:
-  dailyDomain: daily
-  name: journal
-  dateFormat: y.MM.dd
-  addBehavior: childOfDomain
-  firstDayOfWeek: 1
+    dailyDomain: daily
+    name: journal
+    dateFormat: y.MM.dd
+    addBehavior: childOfDomain
+    firstDayOfWeek: 1
 site:
-  copyAssets: true
-  siteHierarchies:
-    - root
-  siteRootDir: docs
-  usePrettyRefs: true
-  title: A Hoarders Notes
-  description: My digital garden where I hoard all the interesting things I learn about.
-  siteUrl: https://mkell43.github.io
-  assetsPrefix: a-hoarders-notes
+    copyAssets: true
+    siteHierarchies:
+        - root
+    siteRootDir: docs
+    usePrettyRefs: true
+    title: A Hoarders Notes
+    description: >-
+        My digital garden where I hoard all the interesting things I learn
+        about.
+    siteUrl: 'https://mkell43.github.io'
+    assetsPrefix: a-hoarders-notes
 initializeRemoteVaults: true
+dev:
+    previewV2Enabled: false
+scratch:
+    name: scratch
+    dateFormat: y.MM.dd.HHmmss
+    addBehavior: asOwnDomain
+dendronVersion: 0.52.0
