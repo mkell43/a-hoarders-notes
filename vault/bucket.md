@@ -2,7 +2,7 @@
 id: TEm0MoPsNQIwkROxRbwfj
 title: Bucket
 desc: ''
-updated: 1627411764242
+updated: 1627422142001
 created: 1626129278492
 ---
 
@@ -100,3 +100,4 @@ This is the waiting area:
 - <https://loguru.readthedocs.io/en/stable/index.html> (Python / Library / Logging)
 - <https://github.com/dimitri/pgloader> (Postgres / Data Migration)
 - <https://github.com/copier-org/copier> (Project Template Generator )
+- <https://www.programmableweb.com/category/agriculture/api> (APIs / Agriculture)
