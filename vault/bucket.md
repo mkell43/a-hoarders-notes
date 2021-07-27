@@ -69,3 +69,6 @@ This is the waiting area:
 - <https://github.com/aonemd/jazl>
 - <https://bonkerfield.org/2020/02/reddit-bot-gpt2-bert/> ( Python / Reddit / GPT-2 / ML )
 - <https://pyautogui.readthedocs.io/en/latest/index.html> ( Python / Automation )
+- <https://javaknowhow.blogspot.com/2021/06/60-python-interview-questions-answers.html#.YPJimu7zzp4.reddit> ( Python )
+- <https://github.com/GoogleCloudPlatform/berglas> (GCP / Secrets Management )
+- <https://github.com/outsideris/citizen> ( Terraform / Private Registry )
