@@ -2,7 +2,11 @@
 id: TEm0MoPsNQIwkROxRbwfj
 title: Bucket
 desc: ''
-updated: 1627939500617
+<<<<<<< Updated upstream
+updated: 1627959736003
+=======
+updated: 1627607875025
+>>>>>>> Stashed changes
 created: 1626129278492
 ---
 
@@ -150,3 +154,12 @@ This is the waiting area:
 - <https://stackabuse.com/executing-shell-commands-with-python> (Python / Subprocess / Guide)
 - <https://bash-minifier.appspot.com/> (Bash / Minifier)
 - <https://shapeshed.com/unix-exit-codes/> (Linux/Unix / Exit Codes)
+- <http://cookiecutter-templates.sebastianruml.name/> ( Cookiecutters )
+- <https://github.com/dahlia/awesome-sqlalchemy> ( Python / SQLAlchemy / Awesome List )
+- <https://github.com/arrow-py/arrow> (Python / Library / Date & Time)
+- <https://github.com/djrobstep/sqlakeyset> (Python / SQLAlchemy / Library / Paging)
+- <https://github.com/un33k/python-slugify> (Python / Library / Slugify)
+- <https://loguru.readthedocs.io/en/stable/index.html> (Python / Logging)
+- <https://github.com/inconshreveable/sqltap> (Python / SQLAlchemy / Profiling)
+- <https://github.com/spoqa/sqlalchemy-utc> ( Python / SQLAlchemy / Date & Time )
+- <https://sqlalchemy-continuum.readthedocs.io/en/latest/index.html> ( Python / SQLAlchemy / Versioning )
