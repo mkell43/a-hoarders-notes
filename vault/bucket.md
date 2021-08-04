@@ -3,7 +3,7 @@ id: TEm0MoPsNQIwkROxRbwfj
 title: Bucket
 desc: ''
 <<<<<<< Updated upstream
-updated: 1627959736003
+updated: 1628008359021
 =======
 updated: 1627607875025
 >>>>>>> Stashed changes
@@ -177,3 +177,14 @@ This is the waiting area:
 - <https://github.com/google/cloudprober> (Monitoring)
 - <https://github.com/terraform-compliance/cli> (Terraform / Testing)
 - <https://github.com/andreoliwa/nitpick> (Python / Settings Sync)
+- <https://github.com/staticbackendhq/core>
+- <https://github.com/blurgyy/bagex> ( CLI Utils / Environment Variable Manager For Programs )
+- <https://github.com/mozilla/sops> ( CLI Utils / Security )
+- <https://github.com/tholian-network>
+  - <https://github.com/tholian-network/stealth> ( Browser / Scraper / Proxy )
+- <https://github.com/sigstore/cosign> ( Containers / Signing / Security )
+- <https://github.com/cookiengineer/git-work> ( Git / Github / Issue Tracking )
+- <https://github.com/cookiengineer/dotfiles> ( Bash / Dotfiles / Inspiration )
+- <https://nixos.org/>
+- <https://python.libhunt.com/>
+- <https://github.com/spotify/luigi> (Python / Batch Job Pipelines)
