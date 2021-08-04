@@ -34,4 +34,4 @@ scratch:
     name: scratch
     dateFormat: y.MM.dd.HHmmss
     addBehavior: asOwnDomain
-dendronVersion: 0.52.0
+dendronVersion: 0.53.0
