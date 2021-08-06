@@ -2,11 +2,7 @@
 id: TEm0MoPsNQIwkROxRbwfj
 title: Bucket
 desc: ''
-<<<<<<< Updated upstream
-updated: 1628008359021
-=======
 updated: 1627607875025
->>>>>>> Stashed changes
 created: 1626129278492
 ---
 
@@ -188,3 +184,4 @@ This is the waiting area:
 - <https://nixos.org/>
 - <https://python.libhunt.com/>
 - <https://github.com/spotify/luigi> (Python / Batch Job Pipelines)
+- <https://github.com/DataHenHQ/till> (Web Scraping)
